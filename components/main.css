@@ -3,8 +3,8 @@ body, html{
     position: relative;
     overflow-x: hidden;
 }
-#main2{
-     background: url('/img/caring1.jpg') center center no-repeat fixed; 
+#main2 img{
+     background: center center no-repeat fixed; 
      z-index: -22;
       -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -17,7 +17,7 @@ body, html{
       margin-bottom: -15px; 
       padding-bottom: 0px;
       top: 0%;
-      left: 0%;
+      /*left: 0%;*/
 		
 }
 #image img{
