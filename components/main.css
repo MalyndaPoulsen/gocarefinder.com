@@ -1,0 +1,107 @@
+   
+body, html{
+    position: relative;
+    overflow-x: hidden;
+}
+#main2{
+     background: url('/img/caring1.jpg') center center no-repeat fixed; 
+     z-index: -22;
+      -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+   height: 100%;
+    position: relative;
+      text-align: center;
+      margin-right: -15px; 
+      margin-bottom: -15px; 
+      padding-bottom: 0px;
+      top: 0%;
+      left: 0%;
+		
+}
+#image img{
+    margin-top: 0px;
+}
+  #image{
+      margin-right: -15px;
+      padding-right: 0px !important;
+  }
+  #main img{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+  }
+  
+
+#row{
+    position: relative;
+}
+#image img{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#main2 h3{
+      font-family: 'Satisfy', cursive;
+      font-size: 5vw;
+      padding-top: 100px;
+      margin-top: 27vw;
+      margin-bottom: 0px;
+      z-index: 999;
+      color:white
+      ;
+      
+}
+
+#main2 h2{
+      -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #b4a755;
+      font-family: 'Slabo 27px', serif;
+      background-color: black;
+      color: white;
+      font-size: 10vw;
+      position: absolute;
+     text-align: left;
+      top: 90%;
+      left: 18%;
+margin-top: 5%;
+    z-index: 66;
+}
+#main2 span{
+    text-align: left;
+ letter-spacing: 8px;
+      font-family: 'Slabo 27px', serif;
+      color: white;
+      font-size: 30%;
+    padding-top: 0;
+      position: absolute;
+      top: 90%;
+      left: 1%;
+    z-index: 66;
+}
+
+
+#scroller{
+animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: 5;
+position: absolute;
+bottom: 2%;
+left: 49%;
+}
+
+#heading{
+animation-duration: 2s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+
+}
+
+.navbar-toggle .icon-bar{
+    background-color: #b4a755;
+}

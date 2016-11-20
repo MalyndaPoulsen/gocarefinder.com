@@ -1,0 +1,152 @@
+<div id="contact" class="bar">
+
+  <div id="contactback" class="row">
+    <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
+      <!--<span class="subheading">Contact us</span>-->
+      <h2>Do you need help caring for a loved one?</h2>
+      <p class="lead">It's what we do.</p>
+      <hr>
+      <h5>Go CareFinder
+        <br>Boise, Idaho</h5>
+      <hr>
+      <h5>208.000.0000</h5>
+      <hr>
+      <h5>Or submit a message below:</h5>
+      <!--<div class="row">
+                   <div class="col-md-4 col-md-offset-2 text-center">
+                            <i class="fa fa-dribbble fa-2x fa-border-circle text-center"></i> 
+                        <i class="fa fa-facebook fa-2x fa-border-circle text-center col-md-offset-1"></i> 
+                        <i class="fa fa-twitter fa-2x fa-border-circle text-center col-md-offset-1"></i> 
+                        <i class="fa fa-apple fa-2x fa-border-circle text-center col-md-offset-1"></i>                 
+
+        </div>
+           </div>-->
+    </div>
+  </div>
+</div>
+<div id="contact2">
+  <!--<div class="bar"></div>-->
+  <div class="overlay" style="background: black; background-size:cover; background-position: center center;"></div>
+  <div class="overlay overlay-dark"></div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <!-- The contact form -->
+        <form class="form-contact  wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;" ng-submit="$ctrl.submit(form)">
+
+          <div class="form-group">
+            <label for="inputName" class="control-label">Name</label>
+            <input type="text" ng-model="form.name" class="form-control" required=""><br>
+            <div class="help-block with-errors"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputEmail" class="control-label">Email</label>
+            <input type="email" ng-model="form.email" class="form-control" required=""><br>
+            <div class="help-block with-errors"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputMessage" class="control-label">Your Message</label>
+            <textarea rows="5" ng-model="form.message" cols="30" class="form-control" required="" style="margin-top: 0px; margin-bottom: 0px; height: 156px;"></textarea><br>
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="form-group text-center">
+            <input type="submit" name="submit" value="Submit" class="btn btn-success disabled" style="pointer-events: all; cursor: pointer;">
+          </div>
+
+        </form>
+        <!-- Contact form end -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section id="contacts" class="module">
+
+  <div class="container-fluid container-custom">
+
+    <!-- MODULE TITLE -->
+    <div class="end row">
+      <div class="col-xs-12 text-center col-sm-12 lead">
+        <p>goCareFinder<br>Boise, Idaho</p>
+        <p>208.484.0644</p>
+    
+
+      
+      </div>
+
+     
+      </div>
+    </div>
+    <div class="me clearfix">
+      <p class="col-xs-12" style="font-size: smaller; color: grey;"><small><i class="fa fa-copyright" aria-hidden="true"></i>Designed and Developed by</small></p>
+      <p class="col-xs-12"><span><a href="http://malyndapoulsen.github.io/UpdatedResume/" target="_blank">M Poulsen Designs</a></span></p>
+    </div>
+  </div>
+</section>
+
+
+<!--******************************************************
+******************** The Footer wrapper
+****************************************************** -->
+<!--<div id="footer" class="wrapper wrapper-xl wrapper-transparent">
+    <div class="container">
+      <div class="row">
+       
+
+   
+      </div>
+    </div>
+  </div>-->
+
+<!--<h2>AngularJS Sample Application</h2>
+      <div ng-app = "Kelly" ng-controller = "contactController">
+         
+         <form name= "contactForm" novalidate>
+            <table border = "0">
+               <tr>
+                  <td>Enter first name:</td>
+                  <td><input name = "firstname" type = "text" ng-model = "firstName" required>
+                     <span style = "color:red" ng-show = "contactForm.firstname.$dirty && contactForm.firstname.$invalid">
+                        <span ng-show = "contactForm.firstname.$error.required">First Name is required.</span>
+                     </span>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td>Enter last name: </td>
+                  <td><input name = "lastname"  type = "text" ng-model = "lastName" required>
+                     <span style = "color:red" ng-show = "contactForm.lastname.$dirty && contactForm.lastname.$invalid">
+                        <span ng-show = "contactForm.lastname.$error.required">Last Name is required.</span>
+                     </span>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td>Email: </td><td><input name = "email" type = "email" ng-model = "email" length = "100" required>
+                     <span style = "color:red" ng-show = "contactForm.email.$dirty && contactForm.email.$invalid">
+                        <span ng-show = "contactForm.email.$error.required">Email is required.</span>
+                        <span ng-show = "contactForm.email.$error.email">Invalid email address.</span>
+                     </span>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td>
+                     <button ng-click = "reset()">Reset</button>
+                  </td>
+                  <td>
+                     <button ng-disabled = "contactForm.firstname.$dirty &&
+                        contactForm.firstname.$invalid || contactForm.lastname.$dirty &&
+                        contactForm.lastname.$invalid || contactForm.email.$dirty &&
+                        contactForm.email.$invalid" ng-click="submit()">Submit</button>
+                  </td>
+               </tr>
+					
+            </table>
+         </form>
+      </div>
+      -->

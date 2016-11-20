@@ -1,0 +1,132 @@
+<html ng-app="Kelly">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Home Health Care, caregiver, ID, Boise, Meridian, Nampa, Home Care, Nursing, Geriatrics, Elder care">
+    <meta name="author" content="MaLynda Poulsen">
+    <link rel="icon" href="favicon.ico">
+
+    <!--<link href="css/animate.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-139292-27', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script>
+    <meta charset="UTF-8">
+    <title>Kelly</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components/about.css">
+    <link rel="stylesheet" href="components/services.css">
+    <link rel="stylesheet" href="components/join.css">
+    <link rel="stylesheet" href="components/contact.css">
+    <link rel="stylesheet" href="components/team.css">
+    <link rel="stylesheet" href="components/main.css">
+    <link rel="stylesheet" href="components/services.css">
+    <link rel="stylesheet" href="components/auth.css">
+
+</head>
+
+<body>
+
+    <!--******************************************************
+******************** The Navbar
+****************************************************** -->
+
+    <div id="sub-nav" class="row">
+        <div class="col-xs-3">
+            <a ui-sref="home">
+                <h2>go<span>CareFinder</span></h2>
+            </a>
+        </div>
+    </div>
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#custom-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand" href="#">Brand</a>-->
+            </div>
+            <div class="collapse navbar-collapse" id="custom-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a ui-sref="home" onclick="scrollTo('body')" class="section-scroll">Home</a></li>
+                    <li><a ui-sref="home" onclick="scrollTo('#about')" class="section-scroll">Philosophy</a></li>
+                    <li><a ui-sref="home" onclick="scrollTo('#services')" class="section-scroll">Services</a></li>
+                    <li><a ui-sref="home" onclick="scrollTo('#founder')" class="section-scroll">Founder</a></li>
+                    <li><a ui-sref="home" onclick="scrollTo('#contact')" class="section-scroll">Contact</a></li>
+                    <li><a ui-sref="join" class="section-scroll">Join</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--<a style="color: black; margin-top: 200px;" href="components/join.html" target="_blank" type="button" class="btn">Join</a>-->
+
+
+    <!-- /.navbar-collapse -->
+
+    <!-- /.container-fluid -->
+
+
+
+    <ui-view></ui-view>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+    <script src="app.js"></script>
+    <script src="route.js"></script>
+
+    <script src="components/auth-component.js"></script>
+    <script src="components/main-component.js"></script>
+    <script src="components/about-component.js"></script>
+    <script src="components/services-component.js"></script>
+    <script src="components/team-component.js"></script>
+    <script src="components/join-component.js"></script>
+    <script src="components/contact-component.js"></script>
+    <script src="components/applicants-component.js"></script>
+
+    <script>
+        function scrollTo(id){
+            var offset = $(id).position().top;
+            $('body').scrollTop(offset);
+        }
+
+        
+
+    </script>
+
+</body>
+
+</html>

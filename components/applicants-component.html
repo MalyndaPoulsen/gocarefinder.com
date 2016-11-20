@@ -1,0 +1,22 @@
+<div class="content-container container">
+    <div class="row">
+        <h1>Applicants</h1>
+        <div class="list-group">
+            <div class="list-group-item" ng-repeat="applicant in $ctrl.applicants">
+                <div class="pull-right btn-group">
+                    <button class="btn btn-primary" ng-click="applicant.show = !applicant.show">{{applicant.show ? 'Hide Application' : 'View Application'}}</button>
+                    <button class="btn btn-danger" ng-click="$ctrl.removeApplicant(applicant)">Remove Applicant</button>
+                </div>
+                <h3>{{applicant.applied | date}} - {{applicant.name}}</h3>
+                <div ng-show="applicant.show">
+                    <div ng-repeat="(key, val) in applicant" ng-if="key != 'show'">
+                        <label>{{key}}:</label>
+                        <div>
+                            {{val}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

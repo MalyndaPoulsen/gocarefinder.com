@@ -1,0 +1,67 @@
+<div class="container content-container">
+    <h1>Join Our Team</h1>
+    <form ng-submit="$ctrl.join($ctrl.user)" class="form">
+        <input required type="text" class="form-control" ng-model="$ctrl.user.name" placeholder="Full Name">
+        <input required type="email" class="form-control" ng-model="$ctrl.user.email" placeholder="Email">
+        <input required type="text" class="form-control" ng-model="$ctrl.user.address" placeholder="Address">
+        <input required type="tel" class="form-control" ng-model="$ctrl.user.phone" placeholder="Phone Number">
+
+  <label for="Education">Education</label><br>
+  <span>First Institution</span>
+  <input required type="text" class="form-control" ng-model="$ctrl.user.education.degree" placeholder="Highest Degree">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.education.college" placeholder="College">
+          <input required type="text" class="form-control" ng-model="$ctrl.user.education.address" placeholder="College Address">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.education.tel" placeholder="Phone #">
+
+ 
+    <span>Second Institution</span>
+  <input required type="text" class="form-control" ng-model="$ctrl.user.education.degree" placeholder="Other Degree or Certifications">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.education.college" placeholder="College">
+          <input required type="text" class="form-control" ng-model="$ctrl.user.education.address" placeholder="College Address">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.education.tel" placeholder="Phone #">
+
+      <label for="Employment">Employment History </label><br>
+      <span>Most Recent Employer</span>
+  <input required type="text" class="form-control" ng-model="$ctrl.user.employment.employer" placeholder="Most recent employer">
+  <input required type="date" class="form-control" ng-model="$ctrl.user.employment.dates" placeholder="start date --/--/--">
+   <input required type="date" class="form-control" ng-model="$ctrl.user.employment.enddates" placeholder="end dates --/--/--">
+          <input required type="text" class="form-control" ng-model="$ctrl.user.employment.supervisor" placeholder="Supervisor">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.employment.tel" placeholder="Phone #">
+  
+         <span>Second Employer</span>
+  <input required type="text" class="form-control" ng-model="$ctrl.user.employment.employer" placeholder="Most recent employer">
+  <input required type="date" class="form-control" ng-model="$ctrl.user.employment.dates" placeholder="start dates --/--/--">
+   <input required type="date" class="form-control" ng-model="$ctrl.user.employment.enddates" placeholder="end dates --/--/--">
+          <input required type="text" class="form-control" ng-model="$ctrl.user.employment.supervisor" placeholder="Supervisor">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.employment.tel" placeholder="Phone #">
+
+           <span>Third Employer</span>
+  <input required type="text" class="form-control" ng-model="$ctrl.user.employment.employer" placeholder="Most recent employer">
+  <input required type="date" class="form-control" ng-model="$ctrl.user.employment.dates" placeholder="start dates --/--/--">
+   <input required type="date" class="form-control" ng-model="$ctrl.user.employment.enddates" placeholder="end dates --/--/--">
+          <input required type="text" class="form-control" ng-model="$ctrl.user.employment.supervisor" placeholder="Supervisor">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.employment.tel" placeholder="Phone #">
+
+<label for="References">Contact information for three references</label><br>
+ <span>First Reference</span>
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.name" placeholder="First Reference's Name">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.contact.phone" placeholder="Reference's Phone Number">
+          <input required type="email" class="form-control" ng-model="$ctrl.user.contact.email" placeholder="Reference's Email Address">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.relationship" placeholder="Relationship with Reference">
+
+ <span>Second Reference</span>
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.name" placeholder="Second Reference's Name">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.contact.phone" placeholder="Second Reference's Phone Number">
+          <input required type="email" class="form-control" ng-model="$ctrl.user.contact.email" placeholder="Second Reference's Email Address">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.relationship" placeholder="Relationship with Second Reference">
+
+ <span>Third Reference</span>
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.name" placeholder="Third Reference's Name">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.contact.phone" placeholder="Third Reference's Phone Number">
+          <input required type="email" class="form-control" ng-model="$ctrl.user.contact.email" placeholder="Third Reference's Email Address">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.relationship" placeholder="Relationship with Third Reference">
+
+        <textarea required type="text" class="form-control" rows="8" ng-model="$ctrl.user.resume" placeholder="Paste your resume"></textarea>
+        <button type="submit" style="background-color:#325660; color: white;" class="btn btn-default">Submit Application</button>
+    </form>
+</div>

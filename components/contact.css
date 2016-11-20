@@ -1,0 +1,139 @@
+
+#contactback h2{
+    margin-top: 10%;
+    padding-top: 20%;
+    color: #b4a755;
+    font-family: 'Slabo 27px', serif;
+  
+}
+#contactback{
+    text-align: center;
+}
+.form-group .btn{
+    background: #325660;
+    color: black;
+    border: none;
+}
+.form-group .btn:hover{
+    background: black;
+    color: white;
+    border: none;
+}
+.bar{
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+    background: white;
+    height: 50%;
+}
+#contactback h5{
+    color: grey;
+      font-family: 'Slabo 27px', serif;
+}
+#contact2{
+   
+    background: white;
+    /*margin-top: 46%;*/
+}
+#contact2 label{
+    color: grey;
+}
+
+
+#contacts{
+    position: relative;
+    background: #325660 !important;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-top: 2px;
+}
+.me{
+    margin-bottom: 25%;
+}
+
+.me{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#fas{
+    text-align: center;
+}
+#fas .fa{
+    color:  #b4a755;
+}
+.end{
+    background: #325660;
+    color:  #b4a755;
+    font-family: 'Slabo 27px', serif;
+    z-index: 88;
+    top: 350%;
+    left: 0%;
+    text-align: center;
+}
+.end>div{
+    text-align: center;
+}
+form{
+    padding-top: 10%;
+}
+.row{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.end p, i{
+      font-family: 'Slabo 27px', serif;
+    margin-top: 2vw;
+
+}
+.end .fa{
+font-size: 3vw;
+ padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+#address{
+    border-left: 1px solid grey;
+     border-right: 1px solid grey;
+}
+.me a{
+    font-size: 2vw;
+     font-family: 'Mrs Saint Delafield', cursive;
+     color: lightgrey;
+     margin-top: 0px;
+}
+.me .fa{
+    font-size: 2vw;
+
+}
+.me{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 2vw;
+   /*margin-bottom: 5%;*/
+}
+#contacts{
+    text-align: center;
+}
+#contacts .me{
+    text-align: center;
+}
+
+
+
+/*new contact sheet*/
+
+     /*table, th , td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+         }
+         
+         table tr:nth-child(odd) {
+            background-color: #f2f2f2;
+         }
+         
+         table tr:nth-child(even) {
+            background-color: #ffffff;
+         }*/

@@ -1,0 +1,31 @@
+{
+  "name": "kelly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalyndaPoulsen/Kelly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalyndaPoulsen/Kelly/issues"
+  },
+  "homepage": "https://github.com/MalyndaPoulsen/Kelly#readme",
+  "engines": {
+    "node": "^6",
+    "npm": "^3"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemailer": "^2.6.4",
+    "nodemailer-mailgun-transport": "^1.2.2",
+    "nodemailer-mailgunapi-transport": "0.0.3"
+  }
+}

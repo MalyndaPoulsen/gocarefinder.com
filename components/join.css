@@ -1,0 +1,32 @@
+.content-container{
+    margin-top: 120px;
+    background-color: #C3D6DB;
+}
+input{
+    margin-bottom: 1%;
+}
+.container label{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    color: lightgrey;
+    /*font-size: 2vw;*/
+}
+form span{
+        margin-top: 2%;
+        margin-bottom: 1%;
+    font-size: 1.5vw;
+    font-kerning: 1vw;
+}
+.content-container h2{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+.content-container form{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.content-container input:hover{
+  color: white !important;
+background-color: #70A7B8;
+   
+}

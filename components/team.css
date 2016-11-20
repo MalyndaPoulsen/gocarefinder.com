@@ -1,0 +1,38 @@
+#founder{
+    color: lightgrey;
+   padding-top: 5%;
+   padding-bottom: 10%;
+}
+.module, .module-sm, .module-xs {
+    background-color:  #325660;
+    background-attachment: fixed;
+    padding-top: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     color: grey;
+}
+#founder h2{
+    color: #b4a755;
+     font-family: 'Slabo 27px', serif;
+}
+#founder p{
+    margin-bottom: 30px;
+     font-family: 'Slabo 27px', serif;
+}
+#mugs .img{
+    margin-left: 0;
+    margin-right: 0;
+}
+#mugs .btn{
+    background: #b4a755;
+    color: black;
+     margin-bottom: 10%;
+}
+#founder{
+    padding-top: 13%;
+}
