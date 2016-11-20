@@ -10,7 +10,7 @@
   body{
      overflow-y: hidden;
   }
-  body, p, li, a, html{
+  body, p, li, a, html, h1, h2, h3, h4, b{
 /*font-family: 'PT Sans', sans-serif;*/
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
@@ -38,9 +38,9 @@
   opacity: 0.5;
   color: black;
 }*/
-#main{
+/*#main{
     position: relative;
-}
+}*/
 .bottom{
     position: fixed;
     background-color: #325660; 
@@ -49,14 +49,14 @@
    
     background-color: #325660;
 }
-#main2 img{
+/*#main2 img{
 
   height: 30vw;
   position: absolute;
   top: 4vw;
   left: 80vw;
    z-index: 33;
-}
+}*/
 
 
 
