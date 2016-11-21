@@ -3,7 +3,7 @@
     margin-top: 10%;
     padding-top: 20%;
     color: #b4a755;
-    font-family: 'Slabo 27px', serif;
+    /*font-family: 'Slabo 27px', serif;*/
   
 }
 #contactback{
@@ -28,7 +28,7 @@
 }
 #contactback h5{
     color: grey;
-      font-family: 'Slabo 27px', serif;
+      /*font-family: 'Slabo 27px', serif;*/
 }
 #contact2{
    
@@ -66,7 +66,7 @@
 .end{
     background: #325660;
     color:  #b4a755;
-    font-family: 'Slabo 27px', serif;
+    /*font-family: 'Slabo 27px', serif;*/
     z-index: 88;
     top: 350%;
     left: 0%;
@@ -76,14 +76,15 @@
     text-align: center;
 }
 form{
-    padding-top: 10%;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .row{
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 .end p, i{
-      font-family: 'Slabo 27px', serif;
+      /*font-family: 'Slabo 27px', serif;*/
     margin-top: 2vw;
 
 }
@@ -108,7 +109,7 @@ font-size: 3vw;
 
 }
 .me{
-    font-family: 'Slabo 27px', serif;
+    /*font-family: 'Slabo 27px', serif;*/
     text-align: center;
     font-size: 2vw;
    /*margin-bottom: 5%;*/
