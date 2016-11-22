@@ -38,10 +38,15 @@
     
 }
 #service p{
-    margin-bottom: 30px;
+  
      /*font-family: 'Slabo 27px', serif;*/
-     margin-bottom: 10%;
+   margin-bottom: 10%;
      color: grey; 
+    
+}
+#care p{
+     margin-bottom: 5%;
+     font-size: 2vw;
 }
 #service h2{
         color: #b4a755;
@@ -67,6 +72,7 @@ margin: 4 4 4 4;
 #care .btn{
     color: #b4a755;
     background-color: #325660;
+    margin-bottom: 2%;
 }
 #scroller2{
 animation-duration: 2s;
