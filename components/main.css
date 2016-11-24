@@ -18,97 +18,7 @@ body, html{
       padding-right: 0px !important;
            position: relative;
   }
-#main2{
-    background:white url('/img/caring1.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-top:0%;
-   width: 100%;
-  
-}
-/*Ipad */
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
-  and (-webkit-min-device-pixel-ratio: 3){ 
-    #main2{
-    background:white url('/img/caring1.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-  /*margin-top: 8%;*/
-   width: 100%;}
-}
 
-
-/*ipad*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
- { 
-    #main2{
-    background:white url('/img/caring1.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-  /*margin-top: 8%;*/
-   width: 100%;}
-}
-
-/*iphone 6*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (-webkit-min-device-pixel-ratio: 2){ 
-    #main2{
-    background:white url('/img/caring1.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-  /*top: 8%;*/
-   width: 100%;
-  
-}
-}
-
-/*ipone 6 plus*/
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
- and (-webkit-min-device-pixel-ratio: 3){     
-    #main2{
-    background:white url('/img/caring1.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- /*top: 8%;*/
-   width: 100%;
-  
-}
-}
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #main2{
-    background:white url('/img/caring1.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- /*top: 8%;*/
-   width: 100%;
-  
-}
-}
 
 #row{
     position: relative;
@@ -119,6 +29,16 @@ a:hover{
     text-decoration: none;
 }
 
+
+#main2{
+    background:white url('/img/caring1.jpg') center no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+/*margin-top: 5%;*/
+   width: 100%;
+}
 #main2 h3{
       font-family: 'Satisfy', cursive;
       font-size: 5vw;
@@ -131,8 +51,7 @@ a:hover{
       
       
 }
-
-#main2 h2{
+/*#main2 h2{
       -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: #b4a755;
       font-family: 'Slabo 27px', serif;
@@ -145,7 +64,7 @@ a:hover{
       left: 18%;
 margin-top: 5%;
     z-index: 66;
-}
+}*/
 #main2 span{
     text-align: left;
  letter-spacing: 8px;
@@ -158,7 +77,24 @@ margin-top: 5%;
       left: 1%;
     z-index: 66;
 }
-
+    #joinBtn{
+    border: 3px solid white;
+    border-radius: 4px;
+    height: 5%;
+    width: 65%;
+    z-index: 77;
+    text-align: center;
+    position: relative;
+    left: 13%;
+    top: 0%;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 5%;
+    font-size: 2.5vw;
+    margin-bottom: 63%;
+    background-color: white;
+    opacity: 0.5;
+    color: black;}
 
 #scroller{
 animation-duration: 2s;
@@ -179,6 +115,7 @@ animation-iteration-count: 1;
 .navbar-toggle .icon-bar{
     background-color: #b4a755;
 }
+
 @media only screen and (min-width: 1020px) {
         #main2{
     background:white url('/img/caring1.jpg') no-repeat fixed;
@@ -186,7 +123,7 @@ animation-iteration-count: 1;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- /*top: 6%;*/
+    margin-top: -2%;
    width: 100%;
    }
 
@@ -194,11 +131,30 @@ animation-iteration-count: 1;
       font-family: 'Satisfy', cursive;
       font-size: 6vw;
       padding-top: 0px;
-       margin-top: 52%;
-    margin-bottom: 6%;
+       margin-top: 40%;
+    margin-bottom: 4%;
       z-index: 999;
       color:white;
     text-shadow: 1px 1px 2px #000000;
+}
+    #joinBtn{
+    border: 3px solid white;
+    border-radius: 4px;
+    height: 7%;
+    width: 65%;
+    z-index: 77;
+    text-align: center;
+    position: relative;
+    left: 5%;
+    top: 0%;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 5%;
+    font-size: 2.5vw;
+    margin-bottom: 63%;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
 }
 #scroller{
 animation-duration: 2s;
@@ -213,13 +169,15 @@ font-size: 1vw;
     margin-top: 4%;
     }
 }
+
 @media only screen and (max-width: 768px) {
         #main2{
-    background:black url('/img/caring1.jpg')  no-repeat fixed;
+    background:white url('/img/caring1.jpg')  no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
- background-size: cover;
+ background-size: contain;
+ margin-top: -10%;
  /*top: 8%;*/
    width: 100%;}
 
@@ -227,11 +185,27 @@ font-size: 1vw;
       font-family: 'Satisfy', cursive;
       font-size: 6vw;
       padding-top: 0px;
-      margin-top:135%;
-    margin-bottom: 11%;
+     margin-top: 58%;
+    margin-bottom: 3%;
       z-index: 999;
       color:white;
     text-shadow: 1px 1px 2px #000000;
+}
+  #joinBtn{
+ border: 3px solid white; 
+ border-radius: 4px;
+     height: 8%;
+    width: 78%;
+    z-index: 77;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    left: 7%;
+    font-size: 6.5vw;
+    margin-bottom: 49%;
+  background-color: white;
+  opacity: 0.5;
+  color: black;
 }
 #scroller{
 animation-duration: 2s;
@@ -239,7 +213,7 @@ animation-delay: 2s;
 animation-iteration-count: 5;
 position: absolute;
 bottom: 2%;
-left: 47%;
+left: 50%;
 font-size: 2vw;
 }
 #main2 img {
@@ -249,11 +223,11 @@ font-size: 2vw;
 
 @media only screen and (max-width: 414px) {
         #main2{
-    background:black url('/img/caring1.jpg')  no-repeat fixed;
+    background:white url('/img/caring1a.jpg')  no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
- background-size: cover;
+ background-size: contain;
  /*top: 8%;*/
    width: 100%;}
 
@@ -266,6 +240,22 @@ font-size: 2vw;
       z-index: 999;
       color:white;
     text-shadow: 1px 1px 2px #000000;
+}
+  #joinBtn{
+ border: 3px solid white; 
+ border-radius: 4px;
+ height: 10%;
+ width: 20%;
+  z-index: 77;
+  text-align: center;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  font-size: 4.5vw;
+
+  background-color: white;
+  opacity: 0.5;
+  color: black;
 }
 #scroller{
 animation-duration: 2s;
@@ -285,11 +275,11 @@ font-size: 2vw;
 
 @media only screen and (max-width: 360px) {
         #main2{
-    background-image:black url('/img/caring1.jpg')  no-repeat fixed;
+    background-image:white url('/img/caring1a.jpg')  no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
- background-size: cover;
+ background-size: contain;
  background-attachment: fixed;
 /*top: 5%;*/
    width: 100%;}
@@ -304,6 +294,7 @@ font-size: 2vw;
       color:white;
     text-shadow: 1px 1px 2px #000000;
 }
+
 #scroller{
 animation-duration: 2s;
 animation-delay: 2s;
@@ -313,7 +304,138 @@ bottom: 2%;
 left: 49%;
 font-size: 2vw;
 }
+
 #main2 img {
     margin-top: 12%;
     }
+
 }
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #main2{
+    background:white url('/img/caring1.jpg') no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+ /*top: 8%;*/
+   width: 100%;
+      position: relative;
+      top: 55%;
+  margin-top: -10%;
+}
+#main2 h3{
+      font-family: 'Satisfy', cursive;
+      font-size: 5vw;
+      padding-top: 0px;
+   margin-top: 53%;
+    margin-bottom: 7%;
+      z-index: 999;
+      color:white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#scroller{
+animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: 5;
+position: absolute;
+bottom: -2%;
+left: 49%;
+font-size: 2vw;
+}
+   #main2 img{
+ margin-top: 10%;
+}
+}
+/*Ipad */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){ 
+    #main2{
+    background-image:white url('/img/caring1a.jpg') no-repeat fixed;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
+  margin-top: -2%;
+   width: 100%;
+   position: relative;
+   top: 55%;
+   }
+   #main2 h3{
+      font-family: 'Satisfy', cursive;
+      font-size: 5vw;
+      padding-top: 0px;
+      margin-top: 130%;
+    margin-bottom: 21%;
+      z-index: 999;
+      color:white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#scroller{
+animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: 5;
+position: absolute;
+bottom: 2%;
+left: 49%;
+font-size: 2vw;
+}
+   #main2 img{
+ margin-top: 10%;
+}
+}
+/*iphone 6*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (-webkit-min-device-pixel-ratio: 2){ 
+    #main2{
+    background:white url('/img/caring1a.jpg') no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+
+margin-top: 2%;
+   width: 100%;
+  
+}
+#main2 h3{
+      font-family: 'Satisfy', cursive;
+      font-size: 5vw;
+      padding-top: 0px;
+      margin-top: 130%;
+    margin-bottom: 21%;
+      z-index: 999;
+      color:white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#scroller{
+animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: 5;
+position: absolute;
+bottom: 2%;
+left: 49%;
+font-size: 2vw;
+}
+#main2 img{
+    position: relative;
+    top: 10%;
+}
+}
+
+
+
+
+
+
+

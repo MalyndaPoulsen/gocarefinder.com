@@ -1,15 +1,12 @@
-#services img{
-   background: center center no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
-    background-attachment: fixed;
-   padding-top: 5%;
-   padding-bottom: 10%;
- width: 100% !important;
- z-index: 22;
+#services {
+    background:white url('/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
 
 }
 .module2, .module2-sm, .module2-xs {
@@ -31,29 +28,23 @@
      margin-top: 20%;
   
 }
+#service h2{
+      color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 20%;
+}
 #services p{
     margin-bottom: 30px;
      /*font-family: 'Slabo 27px', serif;*/
-     margin-bottom: 20%;
-    
+      margin-bottom: 10%;
+     color: black; 
 }
-#service p{
-  
-     /*font-family: 'Slabo 27px', serif;*/
-   margin-bottom: 10%;
-     color: grey; 
-    
-}
+
 #care p{
      margin-bottom: 5%;
      font-size: 2vw;
 }
-#service h2{
-        color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
 
- 
-}
 #care{
  background: #C3D6DB;
 padding-left: 5px;
@@ -65,7 +56,7 @@ margin: 4 4 4 4;
     color: black;
      margin-bottom: 10%;
 }
-#service{
+#services{
     padding-top:5%;
     padding-bottom: 5%;
 }
@@ -81,4 +72,149 @@ animation-iteration-count: infinite;
 position: absolute;
 top: 100%;
 left: 50%;
+}
+@media only screen and (min-width: 1020px){
+   #services {
+    background:white url('/img/caring3b.jpg') no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+} 
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+}
+@media only screen and (max-width: 768px){
+   #services {
+    background:white url('/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+} 
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+}
+@media only screen and (max-width: 414px){
+#services {
+    background:white url('/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+}
+@media only screen and (max-width: 360px){
+#services {
+    background:white url('/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+#services {
+    background:white url('/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+  }
+  /*Ipad */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){
+#services {
+    background:white url('/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+  }
+
+  /*iphone 6*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (-webkit-min-device-pixel-ratio: 2){ 
+#services {
+    background:white url('/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
 }

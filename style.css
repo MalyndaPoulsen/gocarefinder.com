@@ -9,29 +9,16 @@
   /*body { padding-bottom: 70px; }*/
   body{
      overflow-y: hidden;
+     background-color: transparent;
   }
   body, p, li, a, html, h1, h2, h3, h4, b{
 /*font-family: 'PT Sans', sans-serif;*/
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  
   }
 
 
-#joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
- height: 10%;
- width: 20%;
-  z-index: 77;
-  text-align: center;
-  position: fixed;
-  top: 70%;
-  left: 40%;
-  font-size: 4.5vw;
 
-  background-color: white;
-  opacity: 0.5;
-  color: black;
-}
 /*#main{
     position: relative;
 }*/
@@ -153,125 +140,256 @@ padding-bottom: 5px;
  padding-bottom: 5px;
 }
 
-@media only screen and (max-width: 414px) {
-  .navbar-nav>li>a{
-        text-align: left;
-    position: relative;
-    z-index: 9999;
-    color: #b7ac68;
-    background-color: #325660;
-    padding-top: 3vw;
-    font-size: 2.5vw;
-    width: 20%;
-    margin-left: 0px;
-  }
-    .navbar-nav>li>a:hover{
-        text-align: left;
-    position: relative;
-    z-index: 9999;
-    color: white;
-    background-color: #325660;
-    padding-top: 3vw;
-    font-size: 2.5vw;
-    width: 20%;
-    margin-left: 0px;
-  }
-      .navbar-nav>li>a:active{
-        text-align: left;
-    position: relative;
-    z-index: 9999;
-    color: white;
-    background-color: #325660;
-    padding-top: 3vw;
-    font-size: 2.5vw;
-    width: 20%;
-    margin-left: 0px;
-  }
-  #joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
- height: 10%;
- width: 20%;
-  z-index: 77;
-  text-align: center;
-  position: relative;
-  top: 0%;
-  left: 0%;
-  font-size: 4.5vw;
-
-  background-color: white;
-  opacity: 0.5;
-  color: black;
-}
-}
-@media only screen and (min-width: 768px) {
-  .navbar-nav>li>a{
-        text-align: left;
-    position: relative;
-    z-index: 9999;
-    color: #b7ac68;
-    background-color: #325660;
-    padding-top: 3vw;
-    font-size: 2vw;
-    width: 20%;
-    margin-left: 0px;
-  }
-    .navbar-nav>li>a:hover{
-        text-align: left;
-    position: relative;
-    z-index: 9999;
-    color: white;
-    background-color: #325660;
-    padding-top: 3vw;
-    font-size: 2vw;
-    width: 20%;
-    margin-left: 0px;
-  }
-      .navbar-nav>li>a:active{
-        text-align: left;
-    position: relative;
-    z-index: 9999;
-    color: white;
-    background-color: #325660;
-    padding-top: 3vw;
-    font-size: 2vw;
-    width: 20%;
-    margin-left: 0px;
-  }
-  #joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
- height: 5%;
- width: 20%;
-  z-index: 77;
-  text-align: center;
-  position: relative;
-  top: 0%;
-  left: 0%;
-  font-size: 4.5vw;
-margin-bottom: 10%;
-  background-color: white;
-  opacity: 0.5;
-  color: black;
-}
-}
-
 @media only screen and (min-width: 1020px) {
-    #joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
- height: 10%;
- width: 20%;
-  z-index: 77;
-  text-align: center;
-  position: relative;
-  top: 0%;
-  left: 0%;
-  font-size: 4.5vw;
-margin-bottom: 10%;
-  background-color: white;
-  opacity: 0.5;
-  color: black;
+  .navbar-nav>li>a{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: #b7ac68;
+    background-color: #325660;
+    padding-top: 3vw;
+       font-size: 1.5vw;
+    padding-right: 2.5vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+    .navbar-nav>li>a:hover{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+      font-size: 1.5vw;
+    padding-right: 2.5vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+      .navbar-nav>li>a:active{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+       font-size: 1.5vw;
+    padding-right: 2.5vw;
+    width: 100%;
+    margin-left: 0px;
+  }
 }
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav>li>a{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: #b7ac68;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 2vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+    .navbar-nav>li>a:hover{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 2vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+      .navbar-nav>li>a:active{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 2vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+
 }
+@media only screen and (max-width: 414px) {
+  .navbar-collapse {
+    max-height: 400px !important;
+}
+  .navbar-nav>li>a{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: #b7ac68;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+     height: 130%;
+  }
+    .navbar-nav>li>a:hover{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+     height: 130%;
+  }
+      .navbar-nav>li>a:active{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+     height: 130%;
+  }
+
+}
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+   .navbar-nav>li>a{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: #b7ac68;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 2vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+    .navbar-nav>li>a:hover{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 2vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+      .navbar-nav>li>a:active{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 2vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+/*Ipad */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){ 
+  .navbar-collapse {
+    max-height: 450px !important;
+}
+  .navbar-nav>li>a{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: #b7ac68;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+    height: 130%;
+  }
+    .navbar-nav>li>a:hover{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+     height: 130%;
+  }
+      .navbar-nav>li>a:active{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+     height: 130%;
+  }
+}
+
+
+
+/*iphone 6*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (-webkit-min-device-pixel-ratio: 2){ 
+   .navbar-collapse {
+    max-height: 450px !important;
+}
+  .navbar-nav>li>a{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: #b7ac68;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+     height: 130%;
+  }
+    .navbar-nav>li>a:hover{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+     height: 130%;
+  }
+      .navbar-nav>li>a:active{
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    padding-top: 3vw;
+    font-size: 3.5vw;
+    width: 25%;
+    margin-left: 0px;
+     height: 130%;
+  }
+}
+
+
+
 
