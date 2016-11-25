@@ -82,7 +82,7 @@ margin-top: 5%;
     border-radius: 4px;
     height: 5%;
     width: 65%;
-    z-index: 77;
+    z-index: 0;
     text-align: center;
     position: relative;
     left: 13%;
@@ -142,7 +142,7 @@ animation-iteration-count: 1;
     border-radius: 4px;
     height: 7%;
     width: 65%;
-    z-index: 77;
+    z-index: 0;
     text-align: center;
     position: relative;
     left: 5%;
@@ -196,7 +196,7 @@ font-size: 1vw;
  border-radius: 4px;
      height: 8%;
     width: 78%;
-    z-index: 77;
+    z-index: 0;
     text-align: center;
     position: relative;
     top: 0%;
@@ -246,7 +246,7 @@ font-size: 2vw;
  border-radius: 4px;
  height: 10%;
  width: 20%;
-  z-index: 77;
+  z-index: 0;
   text-align: center;
   position: relative;
   top: 0%;
@@ -286,13 +286,30 @@ font-size: 2vw;
 
 #main2 h3{
       font-family: 'Satisfy', cursive;
-      font-size: 5vw;
-      padding-top: 0px;
-      margin-top: 130%;
-    margin-bottom: 21%;
+          font-size: 7vw;
+    padding-top: 0px;
+    margin-top: 65%;
+    margin-bottom: 5%;
+    margin-left: 3%;
       z-index: 999;
       color:white;
     text-shadow: 1px 1px 2px #000000;
+}
+  #joinBtn{
+ border: 3px solid white; 
+ border-radius: 4px;
+    height: 6%;
+    width: 72%;
+  z-index: 0;
+  text-align: center;
+  position: relative;
+  top: 0%;
+  left: 20%;
+  font-size: 4.5vw;
+
+  background-color: white;
+  opacity: 0.5;
+  color: black;
 }
 
 #scroller{
@@ -301,7 +318,7 @@ animation-delay: 2s;
 animation-iteration-count: 5;
 position: absolute;
 bottom: 2%;
-left: 49%;
+left: 52%;
 font-size: 2vw;
 }
 
@@ -333,11 +350,29 @@ font-size: 2vw;
       padding-top: 0px;
    margin-top: 53%;
     margin-bottom: 7%;
-      z-index: 999;
+      z-index: 10;
       color:white;
     text-shadow: 1px 1px 2px #000000;
 }
-
+    #joinBtn{
+    border: 3px solid white;
+    border-radius: 4px;
+    height: 7%;
+    width: 65%;
+    z-index: 0;
+    text-align: center;
+    position: relative;
+    left: 5%;
+    top: 0%;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 5%;
+    font-size: 2.5vw;
+    margin-bottom: 63%;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+}
 #scroller{
 animation-duration: 2s;
 animation-delay: 2s;
@@ -377,7 +412,22 @@ and (max-device-width : 736px)
       color:white;
     text-shadow: 1px 1px 2px #000000;
 }
+  #joinBtn{
+ border: 3px solid white; 
+ border-radius: 4px;
+ height: 10%;
+ width: 20%;
+  z-index: 0;
+  text-align: center;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  font-size: 4.5vw;
 
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+}
 #scroller{
 animation-duration: 2s;
 animation-delay: 2s;
@@ -409,13 +459,30 @@ margin-top: 2%;
 }
 #main2 h3{
       font-family: 'Satisfy', cursive;
-      font-size: 5vw;
-      padding-top: 0px;
-      margin-top: 130%;
-    margin-bottom: 21%;
+        font-size: 7vw;
+    padding-top: 0px;
+    margin-top: 48%;
+    margin-bottom: 8%;
       z-index: 999;
+      margin-left: 4%;
       color:white;
     text-shadow: 1px 1px 2px #000000;
+}
+  #joinBtn{
+ border: 3px solid white; 
+ border-radius: 4px;
+    height: 5%;
+    width: 54%;
+  z-index: 0;
+  text-align: center;
+  position: relative;
+  top: 0%;
+    left: 19%;
+  font-size: 4.5vw;
+
+  background-color: white;
+  opacity: 0.5;
+  color: black;
 }
 
 #scroller{
@@ -424,7 +491,7 @@ animation-delay: 2s;
 animation-iteration-count: 5;
 position: absolute;
 bottom: 2%;
-left: 49%;
+left: 52%;
 font-size: 2vw;
 }
 #main2 img{

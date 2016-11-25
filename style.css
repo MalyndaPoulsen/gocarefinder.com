@@ -55,37 +55,57 @@
        background-color:#325660 !important;
       color:#b7ac68;
    }*/
-.navbar-nav>li>a:active {
-  text-align: left;
-    position: relative;
-    z-index: 9999;
-    color: #b7ac68;
-    background-color: #325660 !important;
-    padding-top: 3vw;
-    font-size: 1.5vw;
-    width: 100%;
-}
-.navbar-nav>li>a {
-  text-align: left;
+  .navbar-nav>li>a{
+        text-align: left;
     position: relative;
     z-index: 9999;
     color: #b7ac68;
     background-color: #325660;
-    padding-top: 3vw;
-    font-size: 1.5vw;
-    width: 20%;
+  
+       font-size: 1.5vw;
+    margin-top: 1.5vw;
+   padding-top: 1.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 1.25vw;
+    width: 100%;
     margin-left: 0px;
-}
-.navbar-nav>li>a:hover {
-  text-align: left;
+  }
+    .navbar-nav>li>a:hover{
+   
+        text-align: left;
     position: relative;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
-    font-size: 1.5vw;
-    width: 20%;
-}
+    /*padding-top: 3vw;*/
+         margin-top: 1.5vw;
+      padding-top: 1.25vw;
+    padding-bottom: auto;
+     padding-right: 1.25vw;
+     padding-left: 1.25vw;
+    width: 100%;
+    margin-left: 0px;
+  }
+      .navbar-nav>li>a:active{
+ 
+        text-align: left;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    background-color: #325660;
+    /*padding-top: 3vw;*/
+       font-size: 1.5vw;
+           margin-top: 1.5vw;
+    padding-top: 1.25vw;
+    padding-bottom: auto;
+     padding-right: 1.25vw;
+     padding-left: 1.25vw;
+    width: 100%;
+    margin-left: 0px;
+  
+    margin-bottom: auto;
+  }
 
 .navbar-fixed-top {
  /*margin-right: -15px;*/
@@ -147,35 +167,50 @@ padding-bottom: 5px;
     z-index: 9999;
     color: #b7ac68;
     background-color: #325660;
-    padding-top: 3vw;
+  
        font-size: 1.5vw;
-    padding-right: 2.5vw;
+    margin-top: 1.5vw;
+   padding-top: 1.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 1.25vw;
     width: 100%;
     margin-left: 0px;
   }
     .navbar-nav>li>a:hover{
+   
         text-align: left;
     position: relative;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
-      font-size: 1.5vw;
-    padding-right: 2.5vw;
+    /*padding-top: 3vw;*/
+         margin-top: 1.5vw;
+      padding-top: 1.25vw;
+    padding-bottom: auto;
+     padding-right: 1.25vw;
+     padding-left: 1.25vw;
     width: 100%;
     margin-left: 0px;
   }
       .navbar-nav>li>a:active{
+ 
         text-align: left;
     position: relative;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+    /*padding-top: 3vw;*/
        font-size: 1.5vw;
-    padding-right: 2.5vw;
+           margin-top: 1.5vw;
+    padding-top: 1.25vw;
+    padding-bottom: auto;
+     padding-right: 1.25vw;
+     padding-left: 1.25vw;
     width: 100%;
     margin-left: 0px;
+  
+    margin-bottom: auto;
   }
 }
 
@@ -186,7 +221,11 @@ padding-bottom: 5px;
     z-index: 9999;
     color: #b7ac68;
     background-color: #325660;
-    padding-top: 3vw;
+           margin-top: .75vw;
+    padding-top: 1vw;
+    padding-bottom: auto;
+     padding-right: 1.25vw;
+     padding-left: 1.25vw;
     font-size: 2vw;
     width: 100%;
     margin-left: 0px;
@@ -197,7 +236,11 @@ padding-bottom: 5px;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+            margin-top: .75vw;
+    padding-top: 1vw;
+    padding-bottom: auto;
+     padding-right: 1.25vw;
+     padding-left: 1.25vw;
     font-size: 2vw;
     width: 100%;
     margin-left: 0px;
@@ -208,7 +251,11 @@ padding-bottom: 5px;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+            margin-top: .75vw;
+    padding-top: 1vw;
+    padding-bottom: auto;
+     padding-right: 1.25vw;
+     padding-left: 1.25vw;
     font-size: 2vw;
     width: 100%;
     margin-left: 0px;
@@ -225,8 +272,13 @@ padding-bottom: 5px;
     z-index: 9999;
     color: #b7ac68;
     background-color: #325660;
-    padding-top: 3vw;
+            margin-top: 1vw;
+   padding-top: 7vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
     font-size: 3.5vw;
+
     width: 25%;
     margin-left: 0px;
      height: 130%;
@@ -237,7 +289,11 @@ padding-bottom: 5px;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+         margin-top: 1vw;
+   padding-top: 7vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
     font-size: 3.5vw;
     width: 25%;
     margin-left: 0px;
@@ -249,7 +305,11 @@ padding-bottom: 5px;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+        margin-top: 1vw;
+   padding-top: 7vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
     font-size: 3.5vw;
     width: 25%;
     margin-left: 0px;
@@ -268,7 +328,11 @@ padding-bottom: 5px;
     z-index: 9999;
     color: #b7ac68;
     background-color: #325660;
-    padding-top: 3vw;
+    margin-top: 1.5vw;
+   padding-top: 2.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 1.25vw;
     font-size: 2vw;
     width: 100%;
     margin-left: 0px;
@@ -279,7 +343,11 @@ padding-bottom: 5px;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+      margin-top: 1.5vw;
+   padding-top: 2.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 1.25vw;
     font-size: 2vw;
     width: 100%;
     margin-left: 0px;
@@ -290,7 +358,11 @@ padding-bottom: 5px;
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+        margin-top: 1.5vw;
+   padding-top: 2.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 1.25vw;
     font-size: 2vw;
     width: 100%;
     margin-left: 0px;
@@ -310,7 +382,12 @@ and (max-device-width : 736px)
     z-index: 9999;
     color: #b7ac68;
     background-color: #325660;
-    padding-top: 3vw;
+         margin-top: 1vw;
+   padding-top: 5.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
+    font-size: 3.5vw;
     font-size: 3.5vw;
     width: 25%;
     margin-left: 0px;
@@ -322,7 +399,12 @@ and (max-device-width : 736px)
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+         margin-top: 1vw;
+   padding-top: 5.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
+    font-size: 3.5vw;
     font-size: 3.5vw;
     width: 25%;
     margin-left: 0px;
@@ -334,7 +416,11 @@ and (max-device-width : 736px)
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+        margin-top: 1vw;
+   padding-top: 5.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
     font-size: 3.5vw;
     width: 25%;
     margin-left: 0px;
@@ -358,7 +444,11 @@ and (-webkit-min-device-pixel-ratio: 2){
     z-index: 9999;
     color: #b7ac68;
     background-color: #325660;
-    padding-top: 3vw;
+        margin-top: 1vw;
+   padding-top: 5.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
     font-size: 3.5vw;
     width: 25%;
     margin-left: 0px;
@@ -370,7 +460,11 @@ and (-webkit-min-device-pixel-ratio: 2){
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+        margin-top: 1vw;
+   padding-top: 5.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
     font-size: 3.5vw;
     width: 25%;
     margin-left: 0px;
@@ -382,7 +476,12 @@ and (-webkit-min-device-pixel-ratio: 2){
     z-index: 9999;
     color: white;
     background-color: #325660;
-    padding-top: 3vw;
+        margin-top: 1vw;
+   padding-top: 5.25vw;
+    padding-bottom: auto;
+    padding-right: 1.25vw;
+     padding-left: 4.25vw;
+  
     font-size: 3.5vw;
     width: 25%;
     margin-left: 0px;

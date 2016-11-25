@@ -16,7 +16,7 @@
             }
         });
 
-    $('#scroller').animateCss('flash');
+    $('#scroller3').animateCss('flash');
 
 
     }
