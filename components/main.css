@@ -333,7 +333,7 @@ font-size: 2vw;
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
     #main2{
-    background:white url('/img/caring1.jpg') no-repeat fixed;
+    background:white url('/img/caring1a.jpg') no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -348,7 +348,7 @@ font-size: 2vw;
       font-family: 'Satisfy', cursive;
       font-size: 5vw;
       padding-top: 0px;
-   margin-top: 53%;
+   margin-top: 63%;
     margin-bottom: 7%;
       z-index: 10;
       color:white;

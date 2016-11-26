@@ -177,13 +177,13 @@ font-size: 3vw;
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
          #contactback h2{
-          font-size: 7vw;
+          font-size: 5vw;
     }
     #contactback h3, h5{
-          font-size: 5vw;
+          font-size: 3vw;
     }
     .end p{
-          font-size: 5vw;
+          font-size: 3vw;
     }
   }
   /*Ipad */
