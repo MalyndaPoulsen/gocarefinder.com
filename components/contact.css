@@ -121,6 +121,55 @@ font-size: 3vw;
     text-align: center;
 }
 
+@media only screen and (min-width: 1020px){
+    
+}
+@media only screen and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 414px){
+#contacts{
+   margin-bottom: 5%;
+    }
+    .me{
+        font-size: 5vw;
+    }
+    .me a{
+        font-size: 7vw;
+    }
+}
+@media only screen and (max-width: 360px){
+#contacts{
+   margin-bottom: 5%;
+    }
+    .me{
+        font-size: 4vw;
+    }
+    .me a{
+        font-size: 7vw;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  }
+  /*Ipad */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){
+      
+  }
+
+  /*iphone 6*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (-webkit-min-device-pixel-ratio: 2){ 
+
+}
 
 
 /*new contact sheet*/

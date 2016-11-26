@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="components/auth.css">
-<header role="banner">
+<header  role="banner">
 	<div id="cd-logo">
 		<a ui-sref="home">
             <!--<img src="assets/img/keepr-logo.jpg" -->
@@ -7,7 +7,7 @@
             </a>
 	</div>
 
-	<nav class="main-nav" ng-click="$ctrl.show = !$ctrl.show">
+	<nav  class="main-nav" ng-click="$ctrl.show = !$ctrl.show">
 		<ul ng-class="{'is-visible': $ctrl.show}">
 			<li><a class="cd-signin" ng-click="$ctrl.activeView = 'login'" ng-if="!$ctrl.member.email">Sign in</a></li>
 			<!--<li><a class="cd-signup" ng-click="$ctrl.activeView = 'register'" ng-if="!$ctrl.member.email">Register</a></li>-->
@@ -24,9 +24,9 @@
 	</nav>
 </header>
 
-<div class="cd-user-modal" ng-class="{'is-visible': $ctrl.activeView.length > 0}">
+<div style="margin-top: 10%; padding-bottom: 0px; margin-bottom: 0px;" class="cd-user-modal" ng-class="{'is-visible': $ctrl.activeView.length > 0}">
 	<div class="cd-user-modal-container">
-		<ul class="cd-switcher">
+		<ul style="text-align: left;" class="cd-switcher">
 			<li><a ng-class="{'selected': $ctrl.activeView == 'login'}" ng-click="$ctrl.activeView = 'login'">Sign in</a></li>
 			<!--<li><a ng-class="{'selected': $ctrl.activeView == 'register'}" ng-click="$ctrl.activeView = 'register'">New account</a></li>-->
 		</ul>

@@ -1,4 +1,9 @@
-#founder{
+  body, p, li, a, html, h1, h2, h3, h4, b{
+/*font-family: 'PT Sans', sans-serif;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+  }
+  #founder{
     color: lightgrey;
    padding-top: 5%;
    padding-bottom: 10%;

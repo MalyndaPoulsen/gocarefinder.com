@@ -33,7 +33,11 @@ and (-webkit-min-device-pixel-ratio: 2){
 }*/
 
 
-
+  body, p, li, a, html, h1, h2, h3, h4, b{
+/*font-family: 'PT Sans', sans-serif;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+  }
 
 
 .module, .module-sm, .module-xs, .footer {
@@ -181,7 +185,7 @@ font-size: 2vw;
     margin-top: 5%;
     padding-top: 0;
     color: #b4a755;
-    font-size: 8vw;
+    font-size: 7vw;
     /*font-family: 'Slabo 27px', serif;*/
 }
     #about{
@@ -217,6 +221,7 @@ font-size: 2vw;
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
+      
       #about{
    padding-bottom: 15px;
    background-color:  white;
@@ -245,6 +250,14 @@ font-size: 1vw;
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
   and (-webkit-min-device-pixel-ratio: 3){
+              .about h2{
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 0;
+    color: #b4a755;
+    font-size: 8vw;
+    /*font-family: 'Slabo 27px', serif;*/
+}
       #about{
    padding-bottom: 15px;
    background-color:  white;
@@ -279,7 +292,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-top: 5%;
     padding-top: 0;
     color: #b4a755;
-    font-size: 8vw;
+    font-size: 7vw;
     /*font-family: 'Slabo 27px', serif;*/
 }
     #about{
