@@ -31,7 +31,7 @@ a:hover{
 
 
 #main2{
-    background:white url('/img/caring1.jpg') center no-repeat fixed;
+    background:white url('/gocarefinder.com/img/caring1.jpg') center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -135,7 +135,7 @@ animation-iteration-count: 1;
 
 @media only screen and (min-width: 1020px) {
         #main2{
-    background:white url('/img/caring1.jpg') no-repeat fixed;
+    background:white url('/gocarefinder.com/img/caring1.jpg') no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -189,7 +189,7 @@ font-size: 1vw;
 
 @media only screen and (max-width: 768px) {
         #main2{
-    background:white url('/img/caring1.jpg')  no-repeat fixed;
+    background:white url('/gocarefinder.com/img/caring1.jpg')  no-repeat fixed;
  -webkit-background-size: contain ;
  -moz-background-size: contain;
  -o-background-size: contain;
@@ -240,7 +240,7 @@ font-size: 2vw;
 
 @media only screen and (max-width: 414px) {
         #main2{
-    background:white url('/img/caring1a.jpg')  no-repeat fixed;
+    background:white url('/gocarefinder.com/img/caring1a.jpg')  no-repeat fixed;
  -webkit-background-size: contain;
  -moz-background-size: contain;
  -o-background-size: contain;
@@ -292,7 +292,7 @@ font-size: 2vw;
 
 @media only screen and (max-width: 360px) {
         #main2{
-    background-image:white url('/img/caring1a.jpg')  no-repeat fixed;
+    background-image:white url('/gocarefinder.com/img/caring1a.jpg')  no-repeat fixed;
  -webkit-background-size: contain;
  -moz-background-size: contain;
  -o-background-size: contain;
@@ -350,7 +350,7 @@ font-size: 2vw;
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
     #main2{
-    background:white url('/img/caring1a.jpg') no-repeat fixed;
+    background:white url('/gocarefinder.com/img/caring1a.jpg') no-repeat fixed;
  -webkit-background-size: contain;
  -moz-background-size: contain;
  -o-background-size: contain;
@@ -419,7 +419,7 @@ and (min-device-width : 414px)
 and (max-device-width : 736px) 
   and (-webkit-min-device-pixel-ratio: 3){ 
     #main2{
-    background-image:white url('/img/caring1a.jpg') no-repeat fixed;
+    background-image:white url('/gocarefinder.com/img/caring1a.jpg') no-repeat fixed;
  -webkit-background-size: contain;
  -moz-background-size: contain;
  -o-background-size: contain;
@@ -474,7 +474,7 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) 
 and (-webkit-min-device-pixel-ratio: 2){ 
     #main2{
-    background:white url('/img/caring1a.jpg') no-repeat fixed;
+    background:white url('/gocarefinder.com/img/caring1a.jpg') no-repeat fixed;
  -webkit-background-size: contain;
  -moz-background-size: contain;
  -o-background-size: contain;
@@ -531,7 +531,7 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) 
 { 
     #main2{
-    background:white url('/img/caring1a.jpg') no-repeat fixed;
+    background:white url('/gocarefinder.com/img/caring1a.jpg') no-repeat fixed;
  -webkit-background-size: contain;
  -moz-background-size: contain;
  -o-background-size: contain;
