@@ -80,13 +80,13 @@ margin-top: 5%;
 .joiner a{
    display: block;
   position: relative;
-  padding-top: 9px;
+  padding-top: 5px;
 }
 .joiner a:hover{
     color: grey !important;
    display: block;
   position: relative;
-  padding-top: 9px;
+  padding-top: 5px;
 }
     #joinBtn{
     /*border: 3px solid white;
@@ -561,7 +561,7 @@ margin-top: 2%;
   text-align: center;
   position: relative;
   top: 0%;
-    left: 41%;
+    left: 38%;
   font-size: 4.5vw;
 
  background: rgba(255, 255, 255, 0.7) ;
