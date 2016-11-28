@@ -77,9 +77,21 @@ margin-top: 5%;
       left: 1%;
     z-index: 66;
 }
+.joiner a{
+   display: block;
+  position: relative;
+  padding-top: 9px;
+}
+.joiner a:hover{
+    color: grey !important;
+   display: block;
+  position: relative;
+  padding-top: 9px;
+}
     #joinBtn{
-    border: 3px solid white;
-    border-radius: 4px;
+    /*border: 3px solid white;
+    border-radius: 4px;*/
+    text-align: center center;
     height: 5%;
     width: 65%;
     z-index: 0;
@@ -92,9 +104,14 @@ margin-top: 5%;
     margin-top: 5%;
     font-size: 2.5vw;
     margin-bottom: 63%;
-    background-color: white;
-    opacity: 0.5;
-    color: black;}
+    background: rgba(255, 255, 255, 0.7) ;
+    /*opacity: 0.5;*/
+    color: black;
+    }
+    /*#joinBtn :hover{
+        color: grey !important;
+         background: rgba(255, 255, 255, 0.7) ; 
+    }*/
 
 #scroller{
 animation-duration: 2s;
@@ -138,22 +155,22 @@ animation-iteration-count: 1;
     text-shadow: 1px 1px 2px #000000;
 }
     #joinBtn{
-    border: 3px solid white;
-    border-radius: 4px;
+    /*border: 3px solid white;
+    border-radius: 4px;*/
     height: 7%;
     width: 65%;
     z-index: 0;
     text-align: center;
     position: relative;
-    left: 5%;
+    left: 17%;
     top: 0%;
     padding-top: auto;
     padding-bottom: auto;
     margin-top: 5%;
     font-size: 2.5vw;
     margin-bottom: 63%;
-    background-color: white;
-    opacity: 0.5;
+  background: rgba(255, 255, 255, 0.7) ;
+    /*opacity: 0.5;*/
     color: black;
 }
 #scroller{
@@ -173,9 +190,9 @@ font-size: 1vw;
 @media only screen and (max-width: 768px) {
         #main2{
     background:white url('/img/caring1.jpg')  no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
+ -webkit-background-size: contain ;
+ -moz-background-size: contain;
+ -o-background-size: contain;
  background-size: contain;
  margin-top: -10%;
  /*top: 8%;*/
@@ -192,8 +209,8 @@ font-size: 1vw;
     text-shadow: 1px 1px 2px #000000;
 }
   #joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
+ /*border: 3px solid white; 
+ border-radius: 4px;*/
      height: 8%;
     width: 78%;
     z-index: 0;
@@ -203,8 +220,8 @@ font-size: 1vw;
     left: 7%;
     font-size: 6.5vw;
     margin-bottom: 49%;
-  background-color: white;
-  opacity: 0.5;
+ background: rgba(255, 255, 255, 0.7) ;
+  /*opacity: 0.5;*/
   color: black;
 }
 #scroller{
@@ -224,9 +241,9 @@ font-size: 2vw;
 @media only screen and (max-width: 414px) {
         #main2{
     background:white url('/img/caring1a.jpg')  no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
  background-size: contain;
  /*top: 8%;*/
    width: 100%;}
@@ -242,8 +259,8 @@ font-size: 2vw;
     text-shadow: 1px 1px 2px #000000;
 }
   #joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
+ /*border: 3px solid white; 
+ border-radius: 4px;*/
  height: 10%;
  width: 20%;
   z-index: 0;
@@ -253,8 +270,8 @@ font-size: 2vw;
   left: 0%;
   font-size: 4.5vw;
 
-  background-color: white;
-  opacity: 0.5;
+background: rgba(255, 255, 255, 0.7) ;
+  /*opacity: 0.5;*/
   color: black;
 }
 #scroller{
@@ -276,9 +293,9 @@ font-size: 2vw;
 @media only screen and (max-width: 360px) {
         #main2{
     background-image:white url('/img/caring1a.jpg')  no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
  background-size: contain;
  background-attachment: fixed;
 /*top: 5%;*/
@@ -296,19 +313,19 @@ font-size: 2vw;
     text-shadow: 1px 1px 2px #000000;
 }
   #joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
+ /*border: 3px solid white; 
+ border-radius: 4px;*/
     height: 6%;
     width: 72%;
   z-index: 0;
   text-align: center;
   position: relative;
   top: 0%;
-  left: 20%;
+  left: 34%;
   font-size: 4.5vw;
 
-  background-color: white;
-  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.7) ;
+  /*opacity: 0.5;*/
   color: black;
 }
 
@@ -334,9 +351,9 @@ font-size: 2vw;
   and (-webkit-min-device-pixel-ratio: 2) {
     #main2{
     background:white url('/img/caring1a.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
  background-size: contain;
  /*top: 8%;*/
    width: 100%;
@@ -355,24 +372,34 @@ font-size: 2vw;
     text-shadow: 1px 1px 2px #000000;
 }
     #joinBtn{
-    border: 3px solid white;
-    border-radius: 4px;
+    /*border: 3px solid white;
+    border-radius: 4px;*/
     height: 7%;
     width: 65%;
     z-index: 0;
     text-align: center;
     position: relative;
-    left: 5%;
+    left: 23%;
+  
     top: 0%;
     padding-top: auto;
     padding-bottom: auto;
     margin-top: 5%;
     font-size: 2.5vw;
     margin-bottom: 63%;
-    background-color: white;
-    opacity: 0.5;
+    background: rgba(255, 255, 255, 0.5) ;
+    /*opacity: 0.5;*/
     color: black;
 }
+#joinBtn :hover{
+     background: rgba(255, 255, 255, 0.9) ;
+     color: black;
+}
+.joiner a{
+    font-size: 5vw;
+    color: grey;
+}
+
 #scroller{
 animation-duration: 2s;
 animation-delay: 2s;
@@ -413,8 +440,8 @@ and (max-device-width : 736px)
     text-shadow: 1px 1px 2px #000000;
 }
   #joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
+ /*border: 3px solid white; 
+ border-radius: 4px;*/
  height: 10%;
  width: 20%;
   z-index: 0;
@@ -424,8 +451,8 @@ and (max-device-width : 736px)
   left: 0%;
   font-size: 4.5vw;
 
-  background-color: white;
-  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.7) ;
+  /*opacity: 0.5;*/
   color: black;
 }
 #scroller{
@@ -448,9 +475,9 @@ and (max-device-width : 667px)
 and (-webkit-min-device-pixel-ratio: 2){ 
     #main2{
     background:white url('/img/caring1a.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
  background-size: contain;
 
 margin-top: 2%;
@@ -469,8 +496,8 @@ margin-top: 2%;
     text-shadow: 1px 1px 2px #000000;
 }
   #joinBtn{
- border: 3px solid white; 
- border-radius: 4px;
+ /*border: 3px solid white; */
+ /*border-radius: 4px;*/
     height: 5%;
     width: 54%;
   z-index: 0;
@@ -480,8 +507,8 @@ margin-top: 2%;
     left: 19%;
   font-size: 4.5vw;
 
-  background-color: white;
-  opacity: 0.5;
+ background: rgba(255, 255, 255, 0.7) ;
+  /*opacity: 0.5;*/
   color: black;
 }
 
@@ -499,6 +526,64 @@ font-size: 2vw;
     top: 10%;
 }
 }
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{ 
+    #main2{
+    background:white url('/img/caring1a.jpg') no-repeat fixed;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
+
+margin-top: 2%;
+   width: 100%;
+  
+}
+#main2 h3{
+      font-family: 'Satisfy', cursive;
+        font-size: 7vw;
+    padding-top: 0px;
+    margin-top: 48%;
+    margin-bottom: 8%;
+      z-index: 999;
+      margin-left: 4%;
+      color:white;
+    text-shadow: 1px 1px 2px #000000;
+}
+  #joinBtn{
+ /*border: 3px solid white; */
+ /*border-radius: 4px;*/
+    height: 5%;
+    width: 54%;
+  z-index: 0;
+  text-align: center;
+  position: relative;
+  top: 0%;
+    left: 41%;
+  font-size: 4.5vw;
+
+ background: rgba(255, 255, 255, 0.7) ;
+  /*opacity: 0.5;*/
+  color: black;
+}
+
+#scroller{
+animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: 5;
+position: absolute;
+bottom: 2%;
+left: 52%;
+font-size: 2vw;
+}
+#main2 img{
+    position: relative;
+    top: 10%;
+}
+}
+
 
 
 
