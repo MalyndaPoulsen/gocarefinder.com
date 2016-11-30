@@ -15,8 +15,8 @@
  z-index: -12;
  padding-right: 0px;
  margin-right:-15px;
-
 }
+
 .module2, .module2-sm, .module2-xs {
     background-color:  white;
     padding-top: 70px;
@@ -90,254 +90,7 @@ position: absolute;
 top: 48%;
 left: 50%;
 }
-@media only screen and (min-width: 1020px){
-    #fade{
-    padding-top: 0%;
-    margin-top: 7%;
-     background: rgba(255, 255, 255, 0.5) ;
-     /*margin-bottom: 10%;
-     padding-bottom: 10%;*/
-}
-    #services h2{
-    color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 13%;
-  
-}
-   #services {
-    background:white url('/gocarefinder.com/img/caring3b.jpg') no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-/*margin-top: 5%;*/
-   width: 100%;
- z-index: -12;
-padding-right: 0px;
-} 
-#services h2{
-    color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 13%;
-  
-}
-#service h2{
-      color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 20%;
-}
-#services p{
-    margin-bottom: 30px;
-     /*font-family: 'Slabo 27px', serif;*/
-      margin-bottom: 10%;
-     color: black; 
-}
-#scroller3{
-animation-duration: 2s;
-animation-delay: 0s;
-animation-iteration-count: infinite;
-position: absolute;
-top: 46%;
-left: 50%;
-}
-}
-@media only screen and (max-width: 768px){
-        #fade{
-    padding-top: 0%;
-    margin-top: 7%;
-    margin-left: 9%;
-     background: rgba(255, 255, 255, 0.5) ;
-     /*margin-bottom: 10%;
-     padding-bottom: 10%;*/
-}
-    #care p{
-     margin-bottom: 5%;
-     font-size: 3vw;
-}
-   #services {
-    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
- -webkit-background-size: contain;
- -moz-background-size: contain;
- -o-background-size: contain;
- background-size: contain;
-/*margin-top: 5%;*/
-   width: 100%;
- z-index: -12;
 
-} 
-#services h2{
-    color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 13%;
-  
-}
-#service h2{
-      color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 20%;
-}
-#services p{
-    margin-bottom: 30px;
-     /*font-family: 'Slabo 27px', serif;*/
-      margin-bottom: 10%;
-     color: black; 
-}
-#scroller3{
-animation-duration: 2s;
-animation-delay: 0s;
-animation-iteration-count: infinite;
-position: absolute;
-top: 47%;
-left: 50%;
-}
-}
-@media only screen and (max-width: 414px){
-            #fade{
-    padding-top: 0%;
-    margin-top: 7%;
-     margin-left: 38.234px;
-     background: rgba(255, 255, 255, 0.5) ;
-     /*margin-bottom: 10%;
-     padding-bottom: 10%;*/
-}
-    #care p{
-     margin-bottom: 5%;
-     font-size: 4vw;
-}
-#services {
-    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
- -webkit-background-size: contain;
- -moz-background-size: contain;
- -o-background-size: contain;
- background-size: contain;
-/*margin-top: 5%;*/
-   width: 100%;
- z-index: -12;
-
-}
-#services h2{
-    color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 13%;
-  
-}
-#service h2{
-      color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 20%;
-}
-#services p{
-    margin-bottom: 30px;
-     /*font-family: 'Slabo 27px', serif;*/
-      margin-bottom: 10%;
-     color: black; 
-}
-#scroller3{
-animation-duration: 2s;
-animation-delay: 0s;
-animation-iteration-count: infinite;
-position: absolute;
-top: 47%;
-left: 50%;
-}
-}
-@media only screen and (max-width: 360px){
-    #fade{
-              margin-left: 38.234px;
-}
-    #care p{
-     margin-bottom: 5%;
-     font-size: 4vw;
-}
-#services {
-    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
- -webkit-background-size: contain;
- -moz-background-size: contain;
- -o-background-size: contain;
- background-size: contain;
-  background-attachment: fixed;
-/*margin-top: 5%;*/
-   width: 100%;
- z-index: -12;
-
-}
-#services h2{
-    color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 13%;
-  
-}
-#service h2{
-      color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 20%;
-}
-#services p{
-    margin-bottom: 30px;
-     /*font-family: 'Slabo 27px', serif;*/
-      margin-bottom: 10%;
-     color: black; 
-}
-#scroller3{
-animation-duration: 2s;
-animation-delay: 0s;
-animation-iteration-count: infinite;
-position: absolute;
-top: 48%;
-left: 50%;
-}
-}
-@media only screen 
-and (min-device-width : 360px) 
-and (max-device-width : 640px) 
-and (-webkit-min-device-pixel-ratio: 3){
-#fade{
-            margin-left: 41.234px;
-}
- #care p{
-     margin-bottom: 5%;
-     font-size: 4vw;
-}
-    #services {
-    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
- -webkit-background-size: contain;
- -moz-background-size: contain;
- -o-background-size: contain;
- background-size: contain;
-/*margin-top: 5%;*/
-   width: 100%;
- z-index: -12;
-
-}
-
-#services h2{
-    color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 13%;
-         font-size: 8vw;
-  
-}
-#service h2{
-      color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 20%;
-         font-size: 8vw;
-}
-#services p{
-    margin-bottom: 30px;
-     /*font-family: 'Slabo 27px', serif;*/
-      margin-bottom: 10%;
-     color: black; 
-}
-#scroller3{
-animation-duration: 2s;
-animation-delay: 0s;
-animation-iteration-count: infinite;
-position: absolute;
-top: 48%;
-left: 50%;
-}
-}
 
 
   /*iphone 6*/
@@ -378,6 +131,58 @@ and (-webkit-min-device-pixel-ratio: 2)
 }
 #services p{
     margin-bottom: 30px;
+      margin-bottom: 10%;
+     color: black; 
+}
+#scroller3{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+position: absolute;
+top: 48%;
+left: 50%;
+}
+}
+
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 640px) 
+and (-webkit-min-device-pixel-ratio: 3){
+#fade{
+            margin-left: 41.234px;
+}
+ #care p{
+     margin-bottom: 5%;
+     font-size: 4vw;
+}
+    #services {
+    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+}
+
+#services h2{
+    color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 13%;
+         font-size: 8vw;
+  
+}
+#service h2{
+      color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 20%;
+         font-size: 8vw;
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
       margin-bottom: 10%;
      color: black; 
 }
@@ -601,6 +406,206 @@ top: 46%;
 left: 50%;
 }
   }
+
+
+
+
+
+@media only screen and (min-width: 1020px){
+    #fade{
+    padding-top: 0%;
+    margin-top: 7%;
+     background: rgba(255, 255, 255, 0.5) ;
+
+}
+    #services h2{
+    color: #b4a755;
+     margin-top: 13%;
+}
+   #services {
+    background:white url('/gocarefinder.com/img/caring3b.jpg') no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+   width: 100%;
+ z-index: -12;
+padding-right: 0px;
+} 
+
+#services h2{
+    color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 13%;
+  
+}
+#service h2{
+      color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 20%;
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+#scroller3{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+position: absolute;
+top: 46%;
+left: 50%;
+}
+}
+@media only screen and (max-width: 768px){
+        #fade{
+    padding-top: 0%;
+    margin-top: 7%;
+    margin-left: 9%;
+     background: rgba(255, 255, 255, 0.5) ;
+     /*margin-bottom: 10%;
+     padding-bottom: 10%;*/
+}
+    #care p{
+     margin-bottom: 5%;
+     font-size: 3vw;
+}
+   #services {
+    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+} 
+#services h2{
+    color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 13%;
+  
+}
+#service h2{
+      color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 20%;
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+#scroller3{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+position: absolute;
+top: 47%;
+left: 50%;
+}
+}
+@media only screen and (max-width: 414px){
+            #fade{
+    padding-top: 0%;
+    margin-top: 7%;
+     margin-left: 38.234px;
+     background: rgba(255, 255, 255, 0.5) ;
+     /*margin-bottom: 10%;
+     padding-bottom: 10%;*/
+}
+    #care p{
+     margin-bottom: 5%;
+     font-size: 4vw;
+}
+#services {
+    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+}
+#services h2{
+    color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 13%;
+  
+}
+#service h2{
+      color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 20%;
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+#scroller3{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+position: absolute;
+top: 47%;
+left: 50%;
+}
+}
+@media only screen and (max-width: 360px){
+    #fade{
+              margin-left: 38.234px;
+}
+    #care p{
+     margin-bottom: 5%;
+     font-size: 4vw;
+}
+#services {
+    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
+  background-attachment: fixed;
+/*margin-top: 5%;*/
+   width: 100%;
+ z-index: -12;
+
+}
+#services h2{
+    color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 13%;
+  
+}
+#service h2{
+      color: #b4a755;
+     /*font-family: 'Slabo 27px', serif;*/
+     margin-top: 20%;
+}
+#services p{
+    margin-bottom: 30px;
+     /*font-family: 'Slabo 27px', serif;*/
+      margin-bottom: 10%;
+     color: black; 
+}
+#scroller3{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+position: absolute;
+top: 48%;
+left: 50%;
+}
+}
+
 
 
 
