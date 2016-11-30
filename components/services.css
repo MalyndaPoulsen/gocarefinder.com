@@ -204,17 +204,17 @@ left: 50%;
      margin-bottom: 5%;
      font-size: 4vw;
 }
-/*#services {
+#services {
     background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
  -webkit-background-size: contain;
  -moz-background-size: contain;
  -o-background-size: contain;
  background-size: contain;
 /*margin-top: 5%;*/
-   /*width: 100%;
+   width: 100%;
  z-index: -12;
 
-}*/
+}
 #services h2{
     color: #b4a755;
      /*font-family: 'Slabo 27px', serif;*/
