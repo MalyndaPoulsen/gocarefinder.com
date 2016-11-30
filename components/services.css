@@ -652,7 +652,7 @@ left: 50%;
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
-/*and (-webkit-min-device-pixel-ratio: 2)*/
+and (-webkit-min-device-pixel-ratio: 2)
 { 
     #care p{
      margin-bottom: 5%;
@@ -664,7 +664,7 @@ and (max-device-width : 568px)
  -moz-background-size: contain;
  -o-background-size: contain;
  background-size: contain;
-/*margin-top: 5%;*/
+
    width: 100%;
  z-index: -12;
 
@@ -674,20 +674,17 @@ and (max-device-width : 568px)
 }
 #services h2{
     color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
      margin-top: 13%;
          font-size: 8vw;
   
 }
 #service h2{
       color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
      margin-top: 20%;
          font-size: 8vw;
 }
 #services p{
     margin-bottom: 30px;
-     /*font-family: 'Slabo 27px', serif;*/
       margin-bottom: 10%;
      color: black; 
 }
