@@ -544,7 +544,8 @@ left: 50%;
 
 @media only screen 
 and (min-device-width : 360px) 
-and (max-device-width : 640px) {
+and (max-device-width : 640px) 
+and (-webkit-min-device-pixel-ratio: 3){
 #fade{
             margin-left: 41.234px;
 }
