@@ -255,6 +255,7 @@ left: 50%;
  -moz-background-size: contain;
  -o-background-size: contain;
  background-size: contain;
+  background-attachment: fixed;
 /*margin-top: 5%;*/
    width: 100%;
  z-index: -12;
