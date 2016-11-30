@@ -436,55 +436,7 @@ top: 48%;
 left: 50%;
 }
 }
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) 
-  { 
- #fade{
-              margin-left:  44.234;
-}
-      #care p{
-     margin-bottom: 5%;
-     font-size: 3vw;
-}
-#services {
-    background:white url('/gocarefinder.com/img/caring3b.jpg')  no-repeat fixed;
- -webkit-background-size: contain;
- -moz-background-size: contain;
- -o-background-size: contain;
- background-size: contain;
-/*margin-top: 5%;*/
-   width: 100%;
- z-index: -12;
 
-}
-#services h2{
-    color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 13%;
-  
-}
-#service h2{
-      color: #b4a755;
-     /*font-family: 'Slabo 27px', serif;*/
-     margin-top: 20%;
-}
-#services p{
-    margin-bottom: 30px;
-     /*font-family: 'Slabo 27px', serif;*/
-      margin-bottom: 10%;
-     color: black; 
-}
-#scroller3{
-animation-duration: 2s;
-animation-delay: 0s;
-animation-iteration-count: infinite;
-position: absolute;
-top: 48%;
-left: 50%;
-}
-}
   /*iphone 6*/
 @media only screen 
 and (min-device-width : 375px) 
