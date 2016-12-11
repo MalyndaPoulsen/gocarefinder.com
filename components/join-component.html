@@ -1,4 +1,4 @@
-<div class="container content-container" style="margin-top: 0px;">
+<div class="container content-container" style="margin-top: 20px;">
     <h1>Join Our Team</h1>
     <form ng-submit="$ctrl.join($ctrl.user)" class="form">
         <input required type="text" class="form-control" ng-model="$ctrl.user.name" placeholder="Full Name">
@@ -15,10 +15,10 @@
 
  
     <h5> Second Institution</h5>
-  <input required type="text" class="form-control" ng-model="$ctrl.user.education.degree" placeholder="Other Degree or Certifications">
-  <input required type="text" class="form-control" ng-model="$ctrl.user.education.college" placeholder="College">
-          <input required type="text" class="form-control" ng-model="$ctrl.user.education.address" placeholder="College Address">
-  <input required type="tel" class="form-control" ng-model="$ctrl.user.education.tel" placeholder="Phone #">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.education.degree2" placeholder="Other Degree or Certifications">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.education.college2" placeholder="College">
+          <input required type="text" class="form-control" ng-model="$ctrl.user.education.address2" placeholder="College Address">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.education.tel2" placeholder="Phone #">
 
       <label for="Employment"><h3>Employment History</h3> </label><br>
       <h5>Most Recent Employer</h5>
@@ -29,18 +29,18 @@
   <input required type="tel" class="form-control" ng-model="$ctrl.user.employment.tel" placeholder="Phone #">
   
          <h5>Second Employer</h5>
-  <input required type="text" class="form-control" ng-model="$ctrl.user.employment.employer" placeholder="Most recent employer">
-  <input required type="date" class="form-control" ng-model="$ctrl.user.employment.dates" placeholder="start dates --/--/--">
-   <input required type="date" class="form-control" ng-model="$ctrl.user.employment.enddates" placeholder="end dates --/--/--">
-          <input required type="text" class="form-control" ng-model="$ctrl.user.employment.supervisor" placeholder="Supervisor">
-  <input required type="tel" class="form-control" ng-model="$ctrl.user.employment.tel" placeholder="Phone #">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.employment.employer2" placeholder="Most recent employer">
+  <input required type="date" class="form-control" ng-model="$ctrl.user.employment.dates2" placeholder="start dates --/--/--">
+   <input required type="date" class="form-control" ng-model="$ctrl.user.employment.enddates2" placeholder="end dates --/--/--">
+          <input required type="text" class="form-control" ng-model="$ctrl.user.employment.supervisor2" placeholder="Supervisor">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.employment.tel2" placeholder="Phone #">
 
            <h5>Third Employer</h5>
-  <input required type="text" class="form-control" ng-model="$ctrl.user.employment.employer" placeholder="Most recent employer">
-  <input required type="date" class="form-control" ng-model="$ctrl.user.employment.dates" placeholder="start dates --/--/--">
-   <input required type="date" class="form-control" ng-model="$ctrl.user.employment.enddates" placeholder="end dates --/--/--">
-          <input required type="text" class="form-control" ng-model="$ctrl.user.employment.supervisor" placeholder="Supervisor">
-  <input required type="tel" class="form-control" ng-model="$ctrl.user.employment.tel" placeholder="Phone #">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.employment.employer3" placeholder="Most recent employer">
+  <input required type="date" class="form-control" ng-model="$ctrl.user.employment.dates3" placeholder="start dates --/--/--">
+   <input required type="date" class="form-control" ng-model="$ctrl.user.employment.enddates3" placeholder="end dates --/--/--">
+          <input required type="text" class="form-control" ng-model="$ctrl.user.employment.supervisor3" placeholder="Supervisor">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.employment.tel3" placeholder="Phone #">
 
 <label for="References"><h3>Contact Information For Three References</h3></label><br>
  <h5>First Reference</h5>
@@ -50,16 +50,16 @@
   <input required type="text" class="form-control" ng-model="$ctrl.user.contact.relationship" placeholder="Relationship with Reference">
 
  <h5>Second Reference</h5>
-  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.name" placeholder="Second Reference's Name">
-  <input required type="tel" class="form-control" ng-model="$ctrl.user.contact.phone" placeholder="Second Reference's Phone Number">
-          <input required type="email" class="form-control" ng-model="$ctrl.user.contact.email" placeholder="Second Reference's Email Address">
-  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.relationship" placeholder="Relationship with Second Reference">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.name1" placeholder="Second Reference's Name">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.contact.phone1" placeholder="Second Reference's Phone Number">
+          <input required type="email" class="form-control" ng-model="$ctrl.user.contact.email1" placeholder="Second Reference's Email Address">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.relationship1" placeholder="Relationship with Second Reference">
 
  <h5>Third Reference</h5>
-  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.name" placeholder="Third Reference's Name">
-  <input required type="tel" class="form-control" ng-model="$ctrl.user.contact.phone" placeholder="Third Reference's Phone Number">
-          <input required type="email" class="form-control" ng-model="$ctrl.user.contact.email" placeholder="Third Reference's Email Address">
-  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.relationship" placeholder="Relationship with Third Reference">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.name2" placeholder="Third Reference's Name">
+  <input required type="tel" class="form-control" ng-model="$ctrl.user.contact.phone2" placeholder="Third Reference's Phone Number">
+          <input required type="email" class="form-control" ng-model="$ctrl.user.contact.email2" placeholder="Third Reference's Email Address">
+  <input required type="text" class="form-control" ng-model="$ctrl.user.contact.relationship2" placeholder="Relationship with Third Reference">
 
  <h5>Resume</h5>
         <textarea required type="text" class="form-control" rows="8" ng-model="$ctrl.user.resume" placeholder="Paste Your Resume"></textarea>
